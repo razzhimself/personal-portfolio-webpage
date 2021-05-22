@@ -1,5 +1,13 @@
 /*style with mobile first in mind*/
-
+*{
+    margin: 0;
+}
+header{
+    background-color: #3CB371;
+    height: 100px;
+    width: 100%;
+    
+}
 #welcome-section{
     min-height: 100vh;
 }
