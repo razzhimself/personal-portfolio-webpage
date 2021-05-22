@@ -9,9 +9,20 @@ header{
     
 }
 
+
 ul{
     list-style: none;
+    
+    
+    
 }
+
+ul li{
+    display: inline;
+    
+}
+
+
 #welcome-section{
     min-height: 100vh;
 }
