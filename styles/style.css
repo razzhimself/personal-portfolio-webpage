@@ -1,5 +1,10 @@
 /*style with mobile first in mind*/
 
+#welcome-section{
+    min-height: 100vh;
+}
+
+
 @media only screen and (min-width: 769px) {
     
 }
