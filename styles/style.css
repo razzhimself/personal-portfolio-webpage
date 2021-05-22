@@ -8,6 +8,10 @@ header{
     width: 100%;
     
 }
+
+ul{
+    list-style: none;
+}
 #welcome-section{
     min-height: 100vh;
 }
