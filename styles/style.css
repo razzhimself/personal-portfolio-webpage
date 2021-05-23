@@ -1,59 +1,54 @@
 /*style with mobile first in mind*/
-*{
-    margin: 0;
-    padding: 0;
+* {
+  margin: 0;
+  padding: 0;
 }
-header{
-    background-color: #3CB371;
-    height: 100px;
-    width: 100%;
-    position: fixed;
-    top: 0;
-    
-}
-
-#navbar{
-    height: 100px;
-    display: flex;
-    flex-direction: row;
-    margin: auto;
-    
-    
+header {
+  background-color: #3cb371;
+  height: 80px;
+  width: 100%;
+  position: fixed;
+  top: 0;
 }
 
-
-ul{
-    list-style: none;
-    
-    margin: auto;
-    display: flex;
-    flex-direction: row;
-    
-    
+#navbar {
+  height: 80px;
+  display: flex;
+  flex-direction: row;
+  margin: auto;
 }
 
-ul li{
-    padding: 15px;
-    
+ul {
+  list-style: none;
+
+  margin: auto;
+  display: flex;
+  flex-direction: row;
 }
 
-ul li a{
-    text-decoration: none;
-    
+ul li {
+  padding: 15px;
 }
 
-#welcome-section{
-    min-height: 100vh;
-    margin-top: 100px;
-    
+ul li a {
+  text-decoration: none;
+  color: white;
 }
 
-#navbar{
-    position:relative;
-    font-size: 25px;
-    
+ul li a:visited{
+  text-decoration: none;
+  color: white;  
+}
+  
+  
+
+
+
+
+#navbar {
+  position: relative;
+  font-size: 25px;
 }
 
 @media only screen and (min-width: 769px) {
-    
 }
