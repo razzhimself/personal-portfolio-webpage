@@ -43,6 +43,16 @@ ul li a:visited{
   
 
 
+#welcome-section {
+  min-height: 100vh;
+  background-color: #232426;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  
+}
+
+
 
 
 #navbar {
