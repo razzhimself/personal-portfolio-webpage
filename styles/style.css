@@ -52,7 +52,19 @@ ul li a:visited{
   
 }
 
+#welcome-section h1 {
+  color: white; 
+  text-align: center;
+  font-size: 52.8px;
+  text-align: center;
+}
 
+#welcome-section p {
+  color: #3cb371;
+  font-size: 26.4px;
+  text-align: center;
+  font-style: italic;
+}
 
 
 #navbar {
