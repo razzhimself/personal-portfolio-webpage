@@ -66,6 +66,16 @@ ul li a:visited{
   font-style: italic;
 }
 
+#projects{
+  background-color: #45567D;
+}
+
+#projects h2{
+  font-size: 35.2px;
+  text-align: center;
+  color: white;
+}
+
 
 #navbar {
   position: relative;
