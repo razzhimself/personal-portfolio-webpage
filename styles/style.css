@@ -71,10 +71,12 @@ ul li a:visited {
   flex-direction: column;
   justify-items: center;
   justify-content: center;
+  padding-top: 25px;
+  padding-bottom: 25px;
+  
 }
 
 #projects h2 {
-  margin-top: 25px;
   font-size: 35.2px;
   text-align: center;
   color: white;
@@ -82,6 +84,7 @@ ul li a:visited {
 
 #project-tile {
   width: 100%;
+  
 }
 
 .project-img {
@@ -111,8 +114,29 @@ ul li a:visited {
   font-size: large;
   font-weight: bold;
   
+}
+
+#contact {
+  min-height: 100vh;
+  background-color: #232426;
+  display: flex;
+  flex-direction: column;
+  padding-top: 25px;
+  justify-content: flex-start;
+  text-align: center;
   
 }
+
+#contact h2 {
+  font-size: 35.2px;
+  padding-bottom: 5px;
+}
+
+#contact p{
+  
+}
+
+
 
 @media only screen and (min-width: 769px) {
 }
