@@ -2,6 +2,7 @@
 * {
   margin: 0;
   padding: 0;
+  color: white;
 }
 header {
   background-color: #3cb371;
@@ -16,6 +17,8 @@ header {
   display: flex;
   flex-direction: row;
   margin: auto;
+  position: relative;
+  font-size: 25px;
 }
 
 ul {
@@ -35,13 +38,10 @@ ul li a {
   color: white;
 }
 
-ul li a:visited{
+ul li a:visited {
   text-decoration: none;
-  color: white;  
+  color: white;
 }
-  
-  
-
 
 #welcome-section {
   min-height: 100vh;
@@ -49,11 +49,10 @@ ul li a:visited{
   display: flex;
   flex-direction: column;
   justify-content: center;
-  
 }
 
 #welcome-section h1 {
-  color: white; 
+  color: white;
   text-align: center;
   font-size: 52.8px;
   text-align: center;
@@ -66,20 +65,43 @@ ul li a:visited{
   font-style: italic;
 }
 
-#projects{
-  background-color: #45567D;
+#projects {
+  background-color: #45567d;
+  display: flex;
+  flex-direction: column;
+  justify-items: center;
+  justify-content: center;
 }
 
-#projects h2{
+#projects h2 {
+  margin-top: 25px;
   font-size: 35.2px;
   text-align: center;
   color: white;
 }
 
+#project-tile {
+  width: 100%;
+}
 
-#navbar {
-  position: relative;
-  font-size: 25px;
+.project-img {
+  display: block;
+  margin: auto;
+  margin-top: 25px;
+  width: 90%;
+  object-fit: contain;
+  border-style: solid;
+  border-color: #3cb371;
+  border-width: medium;
+}
+
+.link-div {
+  width: 85%;
+  height: 25px;
+  background-color: #232426;
+  text-align: center;
+  margin: auto;
+  margin-top: 5px;
 }
 
 @media only screen and (min-width: 769px) {
