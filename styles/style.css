@@ -102,6 +102,16 @@ ul li a:visited {
   text-align: center;
   margin: auto;
   margin-top: 5px;
+  padding: 10px;
+  
+}
+
+.link-div a{
+  text-decoration: none;
+  font-size: large;
+  font-weight: bold;
+  
+  
 }
 
 @media only screen and (min-width: 769px) {
