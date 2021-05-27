@@ -33,6 +33,10 @@ ul li {
   padding: 15px;
 }
 
+.fill:hover {
+  background-color: #232426;
+}
+
 ul li a {
   text-decoration: none;
   color: white;
